@@ -1,0 +1,60 @@
+/* This file will contain the style information for my website*/
+
+body {
+background-color: lightblue;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 12pt;
+text-align: justify;
+text-decoration: #000000;
+line-height: 1.5;
+margin: 100px;
+border: 10px;
+padding: 20px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.heading {
+    grid-column: 1/-1;
+    text-align: center;
+    color: black;
+    background-color: rgb(243, 18, 18);
+}
+
+.overview {
+    grid-column: 1/-1;
+    background-color: limegreen;
+    padding: 20px;
+}
+
+.proj {
+    grid-column: 1/2;
+    background-color: white;
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+.exp {
+    grid-column: 2/3;
+    background-color: white;
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.edu {
+    grid-column: 3/-1;
+    background-color: white;
+    justify-self: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+.link1 {
+    text-decoration: none;
+}
